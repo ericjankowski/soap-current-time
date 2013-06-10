@@ -21,6 +21,7 @@ public class TimeClient {
 		TimeServer eif = service.getPort(TimeServer.class);
 		
 		System.out.println(eif.getTimeAsElapsed());
+		System.out.println(eif.getTimeAsString());
 		
 	}
 }
